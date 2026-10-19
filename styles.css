@@ -1,0 +1,88 @@
+body {
+    background-color: #1e1740;
+    color: #ebe7ff;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Main title banner at the top of each page */
+h1 {
+    background-color: #3d3180;
+    color: #f2b84b;
+    text-align: center;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 24px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2f2566;
+    gap: 7px;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f2b84b;
+    color: #1e1740;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Main content area for all pages */
+.home-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Three columns, one for each team member */
+.picks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pick img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Product names on the home page boxes */
+h2 {
+    color: #f2b84b;
+}
+
+/* Each product box on the home page */
+.pick {
+    background-color: #2f2566;
+    border-left: 4px solid #f2b84b;
+    padding: 16px;
+}
+
+/* Buy and view links on the product pages */
+.buy-button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f2b84b;
+    color: #1e1740;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Images on the product pages */
+.home-content img {
+    max-width: 100%;
+    height: auto;
+}
